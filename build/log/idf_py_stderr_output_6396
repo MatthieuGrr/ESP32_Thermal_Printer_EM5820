@@ -1,0 +1,64 @@
+CMake Error at C:/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:231 (configure_file):
+  Permission denied
+Call Stack (most recent call first):
+  C:/Espressif/frameworks/esp-idf-v5.4.1/tools/cmake/project.cmake:571 (__project)
+  CMakeLists.txt:6 (project)
+
+
+CMake Error at C:/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:237 (configure_file):
+  No such file or directory
+Call Stack (most recent call first):
+  C:/Espressif/frameworks/esp-idf-v5.4.1/tools/cmake/project.cmake:571 (__project)
+  CMakeLists.txt:6 (project)
+
+
+CMake Error at C:/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile):
+  Unknown extension ".cpp" for file
+
+    C:/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp
+
+  try_compile() works only for enabled languages.  Currently these are:
+
+    ASM C CXX
+
+  See project() command to enable other languages.
+Call Stack (most recent call first):
+  C:/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)
+  C:/Espressif/frameworks/esp-idf-v5.4.1/tools/cmake/project.cmake:571 (__project)
+  CMakeLists.txt:6 (project)
+
+
+CMake Error at C:/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:56 (try_compile):
+  Unknown extension ".cxx" for file
+
+    C:/Users/matth/Documents/Esp32-C6 Printer test/build/CMakeFiles/CMakeScratch/TryCompile-pxmsb6/testCXXCompiler.cxx
+
+  try_compile() works only for enabled languages.  Currently these are:
+
+    ASM C CXX
+
+  See project() command to enable other languages.
+Call Stack (most recent call first):
+  C:/Espressif/frameworks/esp-idf-v5.4.1/tools/cmake/project.cmake:571 (__project)
+  CMakeLists.txt:6 (project)
+
+
+CMake Error at C:/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:73 (message):
+  The C++ compiler
+
+    "C:/Espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/riscv32-esp-elf-g++.exe"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  C:/Espressif/frameworks/esp-idf-v5.4.1/tools/cmake/project.cmake:571 (__project)
+  CMakeLists.txt:6 (project)
+
+

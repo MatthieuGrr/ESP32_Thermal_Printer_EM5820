@@ -1,0 +1,2 @@
+--flash_mode dio --flash_freq 80m --flash_size 2MB
+0x10000 Esp32-C6.bin
