@@ -1,4 +1,4 @@
-# ESP32-C6 Printer Test
+# ESP32 Printer EM5820
 
 Ce projet est un exemple d'utilisation d'une imprimante thermique ESC/POS avec un ESP32-C6 sous ESP-IDF.
 
