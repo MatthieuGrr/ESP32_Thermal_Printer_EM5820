@@ -12,7 +12,17 @@ Ce projet est un exemple d'utilisation d'une imprimante thermique ESC/POS avec u
 - Fonctions utilitaires pour l'impression ESC/POS
 
 ## Structure du projet
-. ├── main/ │ ├── CMakeLists.txt │ └── printer_test_main.c // Exemple d'utilisation ├── components/ │ └── escpos/ │ ├── CMakeLists.txt │ ├── escpos.c // Implémentation des commandes ESC/POS │ └── escpos.h // API publique ESC/POS ├── CMakeLists.txt ├── README.md └── sdkconfig
+├── main/
+│ ├── CMakeLists.txt 
+│ └── printer_test_main.c // Exemple d'utilisation 
+├── components/ 
+│ ├── escpos/ 
+│ │ ├── CMakeLists.txt 
+│ │ ├── escpos.c // Implémentation des commandes ESC/POS 
+│ │ └── escpos.h // API publique ESC/POS 
+├── CMakeLists.txt 
+├── README.md 
+└── sdkconfig
 
 ## Utilisation
 
